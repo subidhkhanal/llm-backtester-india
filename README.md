@@ -21,8 +21,8 @@
 </p>
 
 
-**[Agentic Trading Lab](https://agentic-trading-lab.vercel.app/) is an open-source experimental platform for LLM-powered trading agents.**  
-Turn trading ideas into traceable experiments: prototype agents, run backtests, inspect reasoning and decision logs, benchmark against market baselines, and study how agents behave under near-real financial constraints.
+**This repository adds the Indian stock market to [Agentic Trading Lab](https://agentic-trading-lab.vercel.app/), the open-source experimental platform for LLM-powered trading agents.**  
+That is its only purpose: it is a fork of [Open-Finance-Lab/AgenticTrading](https://github.com/Open-Finance-Lab/AgenticTrading) whose sole goal is to let the Lab's agents be built, backtested, inspected, and benchmarked on Indian equities (NSE and BSE), with the same traceable-experiment workflow the Lab already provides for US stocks.
 
 <div align="center">
   <a href="https://agentic-trading-lab.vercel.app/">
@@ -33,6 +33,7 @@ Turn trading ideas into traceable experiments: prototype agents, run backtests, 
 ## Outline
 
 - [Overview](#overview)
+- [Purpose: the Indian Market](#purpose-the-indian-market)
 - [Key Features](#key-features)
 - [Run Locally](#run-locally)
 - [File Structure](#file-structure)
@@ -45,6 +46,12 @@ Turn trading ideas into traceable experiments: prototype agents, run backtests, 
 ## Overview
 
 Agentic Trading Lab is an interactive research and educational platform for exploring trading systems powered by large language models. Developed alongside a systematic survey of agentic trading research, it helps students, researchers, and developers explore how agents reason, trade, and perform in realistic market environments. Move beyond backtest returns by customizing agents, inspecting their decisions, evaluating risk, and comparing performance on standardized leaderboards, including one that advances forward on live market data.
+
+## Purpose: the Indian Market
+
+This repo exists to add the Indian market to Agentic Trading Lab, and nothing else. Changes here are accepted only if they serve that goal: Indian market data, trading calendar and sessions, currency (INR), exchange rules and costs, and the dashboard and leaderboard support needed to use them. General Lab features belong upstream.
+
+Everything below describes the Lab platform this work builds on.
 
 ## Key Features
 
@@ -154,4 +161,4 @@ Pull requests and issues welcome!
 
 ---
 
-Built with Alpaca API, FastAPI, Chart.js, SQLite, and Postgres
+Indian-market extension of Agentic Trading Lab. Built with Alpaca API, FastAPI, Chart.js, SQLite, and Postgres

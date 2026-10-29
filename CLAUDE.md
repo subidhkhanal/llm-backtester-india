@@ -10,6 +10,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
+**This repo's only purpose is to add the Indian stock market (NSE/BSE) to Agentic Trading Lab.** It is a fork of `Open-Finance-Lab/AgenticTrading`; scope any change to that goal, and leave general Lab features to upstream.
+
 **Agentic Trading Lab** — an open-source platform for LLM-powered trading agents (backtests, decision-log inspection, leaderboards; the Robinhood real-money path is switched off (`ROBINHOOD_LIVE_ENABLED`), and there is no paper-trading feature: the dashboard tab is off via `PAPER_TRADING_ENABLED`, and `/paper/*` is a view of one shared Alpaca paper account). The live app is `dashboard/`; everything else is supporting (docs, a Python SDK installed from source, and an imported research framework).
 
 The repo is **two loosely-coupled subsystems**:

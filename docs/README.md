@@ -1,5 +1,7 @@
 # Agentic Trading Documentation
 
+This repository adds the Indian market to Agentic Trading Lab; that is its only purpose.
+
 Sphinx sources for Read the Docs. From the **repository root**:
 
 Install dependencies (matches Read the Docs):
